@@ -2,6 +2,10 @@
 var pickUpLine = document.querySelector("#pickUpLine");
 var btn = document.querySelector("#rand_btn");
 
+
+var joke = document.querySelector("#joke");
+
+
 // Asynchronous function that gets data from external API
 async function generateImage() {
     console.log("HERE")
