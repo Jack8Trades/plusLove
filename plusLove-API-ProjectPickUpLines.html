@@ -1,246 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<<<<<<< Updated upstream
-	<title>plus Love</title>
-	<meta charset="utf-8">
-	<meta>
-
-	<style type="text/css">
-				/* IDs here */
-				#logo {
-					border-radius: 50%;
-					min-width: 5%;
-					max-width: 10%;
-					height: auto;
-					position: fixed;
-				}
-
-				/* Classes here */
-				.header {
-					text-align: center;
-					color: #e4a5c4;
-				}
-
-				/* Elements here */
-				body {
-					background-color: #e4a5c4;
-					background-image: url("https://user-images.githubusercontent.com/22180222/107177039-dbe68900-699e-11eb-8ecb-7fec7e03b60b.png");
-					background-position: fixed;
-					background-repeat: no-repeat;
-				}
-
-				/* For API Generation Buttons, Responsive Design is controlled here */
-				div.generatorButton {
-					border: 1px solid #863c61;
-				}
-
-					div.generatorButton:hover {
-						border: 1px solid #ffe88c;
-					}
-
-					div.generatorButton img {
-						width: 100%;
-						height: auto;
-					}
-
-				div.description {
-					padding: 15px;
-					text-align: center;
-					background-color: #e4a5c4;
-					color: #4b2d3c;
-				}
-
-				* {
-					box-sizing: border-box;
-				}
-
-				.overlay {
-					position: absolute;
-					background-color: #692d4b;
-					overflow: hidden;
-					width: auto;
-					height: 0;
-					transition: .5s ease;
-				}
-
-				.container:hover .overlay {
-					height: 100%;
-				}
-
-				.responsive {
-					padding: 0 6px;
-					float: left;
-					width: 32.99999%;
-				}
-
-				.text {
-					white-space: nowrap;
-					color: white;
-					font-size: 20px;
-					position: absolute;
-					overflow: hidden;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					-ms-transform: translate(-50%, -50%);
-
-					@media only screen and (max-width: 700px) {
-						.responsive {
-							width: 49.99999%;
-							margin: 6px 0;
-						}
-					}
-
-					@media only screen and (max-width: 500px) {
-						.responsive {
-							width: 100%;
-						}
-					}
-
-					.clearfix:after
-
-				{
-					content: "";
-					display: table;
-					clear: both;
-					/* End Responsive generatorButton */
-					footer
-
-				{
-					background-color: #692d4b;
-					color: #e4a5c4;
-					text-align: center;
-				}
-
-				header {
-					background-color: #863c61;
-					color: #ff99d7;
-				}
-
-				h# {
-					font-family:;
-				}
-
-				/* Playing with padding
-			main {
-				padding: (2, 2, 2, 2);
-			}
-		End Comment */
-	</style>
 
 
-	
-</head>
-
-<body>
-	<header style="background-color: #863c61;">
-		<img id="logo" src="https://user-images.githubusercontent.com/22180222/107176924-932ed000-699e-11eb-88e4-7055effb12c4.png" alt="Plus Love logo, a buff for romance">
-		<!-- Possible Headings: "Create Some Sparks" "Connect these Circuits" "Dating Achievements: Cheats and WalkThroughs" -->
-		<h1 class="header">plus Love</h1>
-		<p class="header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a buff for romance</p>
-		<nav></nav>
-	</header>
 
 
-	<main>
-		<!--Yes or no API-->
-		<div class="responsive">
-			<div class="generatorButton">
-				<a target="_blank" href="">
-					<div class="container">
-						<img src="https://user-images.githubusercontent.com/22180222/107177769-a17deb80-69a0-11eb-907f-c9d3f64002fa.png" alt="Generate a Pick Up Line for a Female" width="600" height="400">
-					</div>
-				</a>
-				<div id="YESorNO" class="description">
-					Should you text them? Ask us!
-					<br>
-					<br>
-				</div>
-				<button id="YNbtn">Generate</button>
-			</div>
-		</div>
 
-		<!--Joke API-->
-		<div class="responsive">
-			<div class="generatorButton">
-				<a target="_blank" href="">
-					<div class="container">
-						<img src="https://user-images.githubusercontent.com/22180222/107177707-6d0a2f80-69a0-11eb-98f3-3ea030b68c0e.png" alt="Generate a Random Pick Up Line" width="600" height="400">
-						<div class="overlay">
-							<div class="text">Feeling Lucky? Generate A Pick Up Line</div>
-						</div>
-					</div>
-				</a>
-				<div class="description">
-					<br><br>
-					Need help to break the ice? Here is a quick joke to help you!
-					<br>
-					<!--IMPORTANT PART-->
-					<div id="jokeSetup" class="description">
-						JOKE
-						<br>
-					</div>
+    <!--Extra Content Space - if there's time/input -->
+    <!-- Start Hidden Below
+    <article>
+        <h2>Next Step - Romance!</h2>
+        <p>The pick up line worked and you've scored the date! **Victory Dance!**
+            <br><br>
+        Now what?
+        </p>
+        <ul>
+            <li>Bring Flowers</li>
+            <li></li>
+        </ul>
 
-					<div id="jokePunchline" class="description">
-						JOKE
-						<br>
-					</div>
-					<button id="jokeButton">Generate</button>
-				</div>
-			</div>
-		</div>
-
-		<div class="responsive">
-			<div class="generatorButton">
-				<a target="_blank" href="">
-					<div class="container">
-						<img src="https://user-images.githubusercontent.com/22180222/107177879-e1dd6980-69a0-11eb-98f8-7ea674888d33.png" alt="Generate a Pick Up Line for a Male" width="600" height="400">
-						<div class="overlay">
-							<div class="text">Generate A Pick Up Line</div>
-						</div>
-					</div>
-				</a>
-
-				<div id="pickUpLine" class="description">
-					JOKE
-					<br>
-				</div>
-			<button id="pickuplineButton">Generate</button>
-
-		</div>
-		</div>
+    </article>
+    End Hidden Above-->
 
 
-		<div class="clearfix"></div>
 
 
-		<!--Extra Content Space - if there's time/input -->
-		<!-- Start Hidden Below
-	<article>
-		<h2>Next Step - Romance!</h2>
-		<p>The pick up line worked and you've scored the date! **Victory Dance!**
-			<br><br>
-		Now what?
-		</p>
-		<ul>
-			<li>Bring Flowers</li>
-			<li></li>
-		</ul>
 
-	</article>
-	End Hidden Above-->
-
-	</main>
-
-	<footer>
-		<small>
-			This project was made for educational purposes as a response to a challenge.
-			The content in this project does not reflect the views, opinions nor actions of our club nor institution.
-		</small>
-	</footer>
-	<script src="newScript.js"></script>
-=======
     <meta charset="utf-8">
     <meta name="description" content="In a post-pandedmic world, we hope to increase your chances of obtaining the 'Dating Achievement'. Roll our buffs for a better chance in Love, Luck and Charisma. An API project created by computer programming students, using 2 open-source APIs and our student-made 'Pick Up Line Generator' API.">
 
@@ -249,212 +34,228 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>plus Love</title>
 
 
     <style type="text/css">
-                /* IDs here */
-                #logo {
-                    border-radius: 50%;
-                    min-width: 5%;
-                    max-width: 10%;
-                    height: auto;
-                    position: fixed;
-                    float: left;
-                    clear: left;
-                }
+        /* IDs here */
+        #logo {
+            border-radius: 50%;
+            min-width: 5%;
+            max-width: 10%;
+            height: auto;
+            position: absolute;
+            float: left;
+            clear: left;
+        }
 
-                #subhead {
-                    font-size: 2em;
-                    margin-top: 0px;
-                }
+        #subhead {
+            font-size: 2em;
+            margin-top: 0px;
+        }
 
-                #jokeSetup {
-                    font-style: italic;
-                }
+        #jokeSetup {
+            font-style: italic;
+        }
 
-                #jokePunchline {
-                    font-style: italic;
-                }
+        #jokePunchline {
+            font-style: italic;
+        }
 
-                #pickUpLine1 {
-                    font-style: italic;
-                }
+        #pickUpLine1 {
+            font-style: italic;
+        }
 
-                #pickUpLine2 {
-                    font-style: italic;
-                }
+        #pickUpLine2 {
+            font-style: italic;
+        }
 
-                /* Classes here */
-                .header {
-                    text-align: center;
-                    color: #e4a5c4;
-                    font-weight: 700;
-                }
+        /* Classes here */
+        .header {
+            text-align: center;
+            color: #e4a5c4;
+            font-weight: 700;
+        }
 
-                /* Elements here */
-                body {
-                    background-color: #e4a5c4;
-                    font-family: 'Cormorant Upright', serif;
-                    margin-top: 0px;
-                }
+        /* Elements here */
+        body {
+            background-color: #e4a5c4;
+            font-family: 'Cormorant Upright', serif;
+            margin-top: 0px;
+        }
 
-                blockquote {
-                    display: block;
-                    border-width: 2px 0;
-                    border-style: solid;
-                    border-color: #863c61;
-                    padding: 1.5em 0 0.5em;
-                    margin: 1.5em 0;
-                    position: relative;
-                }
+        /* Bobby's Change */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-                    blockquote:before {
-                        content: '\201C';
-                        position: absolute;
-                        top: 0em;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        background: #e4a5c4;
-                        width: 3rem;
-                        height: 2rem;
-                        font: 6em/1.08em 'PT Sans', sans-serif;
-                        color: #666;
-                        text-align: center;
-                    }
+        blockquote {
+            display: block;
+            border-width: 2px 0;
+            border-style: solid;
+            border-color: #863c61;
+            padding: 1.5em 0 0.5em;
+            margin: 1.5em 0;
+            position: relative;
+        }
 
-                    blockquote:after {
-                        content: "\2013 \2003" attr(cite);
-                        display: block;
-                        text-align: right;
-                        font-size: 0.875em;
-                        color: #666;
-                    }
+            blockquote:before {
+                content: '\201C';
+                position: absolute;
+                top: 0em;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: #e4a5c4;
+                width: 3rem;
+                height: 2rem;
+                font: 6em/1.08em 'PT Sans', sans-serif;
+                color: #666;
+                text-align: center;
+            }
 
-                button {
-                    background-color: #863c61;
-                    border-color: #692d4b;
-                    color: #fd0e96;
-                    float: center;
-                    position: center;
-                    padding-left: 10%;
-                }
+            blockquote:after {
+                content: "\2013 \2003" attr(cite);
+                display: block;
+                text-align: right;
+                font-size: 0.875em;
+                color: #666;
+            }
 
-                    button:hover {
-                        background-color: #863c61;
-                        border-color: #ffe88c;
-                        border-width: 3px;
-                        color: #fd0e96;
-                    }
+        button {
+            background-color: #863c61;
+            border-color: #692d4b;
+            color: #fd0e96;
+            float: center;
+            position: center;
+            padding-left: 10%;
+        }
 
-                /* For API Generation Buttons, Responsive Design is controlled here */
-                div.generatorButton {
-                    border: 1px solid #863c61;
-                }
+            button:hover {
+                background-color: #863c61;
+                border-color: #ffe88c;
+                border-width: 3px;
+                color: #fd0e96;
+            }
 
-                    div.generatorButton:hover {
-                        animation-name: notice;
-                        animation-duration: 500ms;
-                        animation-fill-mode: forwards;
-                    }
+        /* For API Generation Buttons, Responsive Design is controlled here */
 
-                @keyframes notice {
-                    100% {
-                        border: 5px solid #ffe88c;
-                        font-weight: 700;
-                    }
-                }
+        div.generatorButton {
+            border: 1px solid #863c61;
+            /* Bobby's Changes */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
 
-                div.generatorButton img {
-                    width: 100%;
-                    height: auto;
-                }
+            div.generatorButton:hover {
+                animation-name: notice;
+                animation-duration: 500ms;
+                animation-fill-mode: forwards;
+            }
 
-                div.description {
-                    padding: 15px;
-                    text-align: center;
-                    background-color: #e4a5c4;
-                    color: #4b2d3c;
-                }
+        @keyframes notice {
+            100% {
+                border: 5px solid #ffe88c;
+                font-weight: 700;
+            }
+        }
 
-                * {
-                    box-sizing: border-box;
-                }
+        div.generatorButton img {
+            width: 100%;
+            height: auto;
+        }
 
-                .overlay {
-                    position: absolute;
-                    background-color: #692d4b;
-                    overflow: hidden;
-                    width: auto;
-                    height: 0;
-                    transition: .5s ease;
-                }
+        div.description {
+            padding: 15px;
+            text-align: center;
+            background-color: #e4a5c4;
+            color: #4b2d3c;
+            font-family: 'Open Sans', sans-serif;
+        }
 
-                .container:hover .overlay {
-                    height: 100%;
-                }
+        * {
+            box-sizing: border-box;
+        }
 
-                .responsive {
-                    padding: 0 6px;
-                    float: left;
-                    width: 32.99999%;
-                }
+        .overlay {
+            position: absolute;
+            background-color: #692d4b;
+            overflow: hidden;
+            width: auto;
+            height: 0;
+            transition: .5s ease;
+        }
 
-                .text {
-                    white-space: nowrap;
-                    color: white;
-                    font-size: 20px;
-                    position: absolute;
-                    overflow: hidden;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                }
+        .container:hover .overlay {
+            height: 100%;
+        }
 
-                @media only screen and (max-width: 700px) {
-                    .responsive {
-                        width: 49.99999%;
-                        margin: 6px 0;
-                    }
-                }
+        .responsive {
+            padding: 0 6px;
+            /* Bobby's Change */
+            /* float: left; */
+            width: 550px;
+            margin: 30px 30px;
+        }
 
-                @media only screen and (max-width: 500px) {
-                    .responsive {
-                        width: 100%;
-                    }
-                }
+        .text {
+            white-space: nowrap;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
 
-                .clearfix:after {
-                    content: "";
-                    display: table;
-                    clear: both;
-                }
-                /* End Responsive generatorButton */
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
 
-                footer {
-                    background-color: #692d4b;
-                    color: #e4a5c4;
-                    text-align: center;
-                    clear: both;
-                }
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
 
-                header {
-                    background-color: #863c61;
-                    color: #ff99d7;
-                    clear: both;
-                    margin-top: 1px;
-                    padding: 0px;
-                }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* End Responsive generatorButton */
 
-                h1 {
-                    font-size: 8em;
-                    line-height: .9em;
-                    margin-bottom: 0px;
-                }
+        footer {
+            background-color: #692d4b;
+            color: #e4a5c4;
+            text-align: center;
+            clear: both;
+        }
 
-                /* Playing with padding
+        header {
+            background-color: #863c61;
+            color: #ff99d7;
+            clear: both;
+
+            padding: 0px;
+        }
+
+        h1 {
+            font-size: 8em;
+            line-height: .9em;
+            margin-bottom: 0px;
+        }
+
+        /* Playing with padding
         main {
             padding: (2, 2, 2, 2);
         }
@@ -491,6 +292,10 @@
                     Boost your Luck and Click below to Ask the Oracle!
                     <br><br>
                     <center>
+                        <div id="TextYesNo">
+
+                        </div>
+                        <br><br><br>
                         <button type="button" id="YNbtn">
                             <img src="https://user-images.githubusercontent.com/22180222/108027718-9f4b0b00-6ff8-11eb-8a6d-d92e500c17b2.png" alt="Ask the Oracle, Click Here for Your Answer">
                         </button>
@@ -502,66 +307,66 @@
         <!-- Second Button - Gimme a Line, (Possible) Pick Up Line API Generator -->
         <div class="responsive">
             <div class="generatorButton">
-                <a target="_blank" href="">
                     <div class="container">
                         <img src="https://user-images.githubusercontent.com/22180222/108027616-7f1b4c00-6ff8-11eb-97d1-86c9837c04b2.png" alt="Generate a Random Pick Up Line" width="32.99%" height="auto">
                         <div class="overlay">
                             <div class="text">Feeling Lucky? Generate A Pick Up Line</div>
                         </div>
                     </div>
-                </a>
-                <div class="description">
-                    Need to connect a circuit with this person?
-                    <br>
-                    Click the Generator Above to get a pick up line and make that spark happen!
-                    <br>
-                    <!--IMPORTANT PART - Please Change from "pickUpLine" to your code && Change ID in style to match for styling (italics)-->
-                    <div id="pickUpLine1" class="description">
-                        <i>Every once and a while two numbers meet, link, and become forever binary.</i>
+       
+                    <div class="description">
+                        Need to connect a circuit with this person?
                         <br>
-                    </div>
+                        Click the Generator Above to get a pick up line and make that spark happen!
+                        <br>
+                        <!--IMPORTANT PART - Please Change from "pickUpLine" to your code && Change ID in style to match for styling (italics)-->
+                        <div id="pickUpLine1" class="description">
+                            <i>Every once and a while two numbers meet, link, and become forever binary.</i>
+                            <br>
+                        </div>
 
-                    <!--IMPORTANT PART - Please Change from "pickUpLine" to your code-->
-                    <div id="pickUpLine2" class="description">
-                        Need another Pick Up Line?
-                        <br>
+                        <!--IMPORTANT PART - Please Change from "pickUpLine" to your code-->
+                        <div id="pickUpLine2" class="description">
+                            Need another Pick Up Line?
+                            <br>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <button type="button" id="pickUpLineButton" autofocus="autofocus"><img src="https://user-images.githubusercontent.com/22180222/108027601-76c31100-6ff8-11eb-87d2-c918bf8614f5.png" alt="I'm Feelin' Lucky, Click here to generate a new pick up line"</button>
                     </div>
-                    <button type="button" id="pickUpLineButton" autofocus="autofocus"><img src="https://user-images.githubusercontent.com/22180222/108027601-76c31100-6ff8-11eb-87d2-c918bf8614f5.png" alt="I'm Feelin' Lucky, Click here to generate a new pick up line"</button>
-                </div>
             </div>
         </div>
 
         <!-- Third Button - Roll for Laughs, Joke API Generator -->
         <div class="responsive">
             <div class="generatorButton">
-                <a target="_blank" href="">
                     <div class="container">
                         <img src="https://user-images.githubusercontent.com/22180222/108027544-5b580600-6ff8-11eb-9930-3e43678066d0.png" alt="plus Charisma buff, Click Roll for Laughs to Generate a Joke" width="600" height="400">
                         <div class="overlay">
                             <div class="text">Roll for Laughs to Generate A Joke</div>
                         </div>
                     </div>
-                </a>
 
-                <div class="description">
-                    Need another wisecrack to get the convo rolling?
-                    <br>
-                    Boost your Charisma and Click Roll for Laughs.
-                    <br><br>
+                    <div class="description">
+                        Need another wisecrack to get the convo rolling?
+                        <br>
+                        Boost your Charisma and Click Roll for Laughs.
+                        <br><br>
 
-                    <!--IMPORTANT PART-->
-                    <div id="jokeSetup" class="description">
-                        <i>Stop making me so interested in you...I'm trying to act aloof so you think I'm cool.</i>
+                        <!--IMPORTANT PART-->
+                        <div id="jokeSetup" class="description">
+                            <i>Stop making me so interested in you...I'm trying to act aloof so you think I'm cool.</i>
+                        </div>
+
+                        <div id="jokePunchline" class="description">
+                            <i>The Internet: where men are men, women are men, and children are the FBI.</i>
+                        </div>
+                        <br><br><br><br>
+                        <button type="button" id="jokeButton"><img src="https://user-images.githubusercontent.com/22180222/108027573-6874f500-6ff8-11eb-962b-176a03f35a84.png" alt="Roll For Laughs, Click Here to Generate a Joke"</button>
+
                     </div>
-
-                    <div id="jokePunchline" class="description">
-                        <i>The Internet: where men are men, women are men, and children are the FBI.</i>
-                    </div>
-
-                    <button type="button" id="jokeButton"><img src="https://user-images.githubusercontent.com/22180222/108027573-6874f500-6ff8-11eb-962b-176a03f35a84.png" alt="Roll For Laughs, Click Here to Generate a Joke"</button>
-
-                </div>
-
+            </div>
+        </div>
 
                 <div class="clearfix"></div>
 
@@ -591,6 +396,5 @@
         </small>
     </footer>
     <script src="newScript.js"></script>
->>>>>>> Stashed changes
 </body>
 </html>

@@ -6,6 +6,7 @@ var btnYN = document.querySelector("#YNbtn");
 
 
 
+
 //Joke API
 var jokePunchline = document.querySelector("#jokePunchline")
 var jokeSetup = document.querySelector("#jokeSetup")
@@ -13,7 +14,7 @@ var btnJOKE = document.querySelector("#jokeButton");
 
 //PickupLine API (OURS)
 var pickUpLine = document.querySelector("#pickUpLine");
-var btnPICKUPLINE = document.querySelector("#pickuplineButton");
+var btnPICKUPLINE = document.querySelector("#pickUpLineButton");
 
 // Asynchronous function that gets data from external API
 async function generateYesNO() {
@@ -22,7 +23,7 @@ async function generateYesNO() {
     var answer = data.answer;
     console.log(data.answer);
 
-    document.querySelector("#YESorNO").innerHTML = answer;
+    document.querySelector("#TextYesNo").innerHTML = answer;
 
 }
 
@@ -47,13 +48,14 @@ async function generateJoke() {
 async function generatePickupLine() {
     var response = await fetch("http://127.0.0.1:5000/randomQuote");
     var data = await response.json();
-    line = data.saying;
+    line = data.pickupLine;
     console.log(line);
-    document.querySelector("#pickUpLine").innerHTML = line;
+    document.querySelector("#pickUpLine1").innerHTML = line;
 }
 
 // Add event listener to each button when clicked
 btnYN.addEventListener('click', generateYesNO);
 btnJOKE.addEventListener('click', generateJoke);
-btnPICKUPLINE.addEventListener('click', generatePickupLine)
+btnPICKUPLINE.addEventListener('click', generatePickupLine);
+
 
